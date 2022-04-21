@@ -102,7 +102,7 @@ disconnectMessage <- function(
 
           "#ss-overlay {
              background-color: {{overlayColour}} !important;
-             opacity: {{overlayOpacity}} !important;
+             opacity: {{overlayOpacity}};
              position: fixed !important;
              top: 0 !important;
              left: 0 !important;
@@ -126,7 +126,7 @@ disconnectMessage <- function(
              padding: 0.8em 1.5em !important;
              text-align: center !important;
              height: auto !important;
-             opacity: 1 !important;
+             opacity: 1;
              z-index: 99999 !important;
              border-radius: 3px !important;
              box-shadow: rgba(0, 0, 0, 0.3) 3px 3px 10px !important;
